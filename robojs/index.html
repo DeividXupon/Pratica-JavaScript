@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Robo</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">ROBO NOPUX</h1>
+    </header>
+    <main class="main">
+        <div class="main__conteudo">
+            <section class="main__conteudo__bloco cprograma">
+                <header class="bloco__cabecalho">
+                    <h2 class="bloco__cabecalho__titulo">C: Programa</h2>
+                    <img class="bloco__cabecalho__x" src="./assets/close.png">
+                </header>
+                <div class="bloco__cabecalho__conteudo__modif">
+                    <header class="modif__cabecalho">
+                        <a class="modif__cabecalho__opt" href=""><strong class="linha">F</strong>ile | <strong class="linha">E</strong>dit | <strong class="linha">V</strong>iew | <strong class="linha">H</strong>elp</a>
+                    </header>
+                    <form action="" class="form">
+                        <div class="modif__config">
+                            <label for="" class="peca__titulo">C: 100110011</label>
+                            <div class="config__peca">
+                                <button type="button" class="config__modifica" data-controle="+" data-peca="">↕</button>
+                            </div>
+                        </div>
+                        <div class="modif__config">
+                            <label for="" class="peca__titulo">Braço:</label>
+                            <div class="config__peca">
+                                <button type="button" class="config__modifica" data-controle="+" data-peca="bracos">+</button>
+                                <input type="text" class="config__contador" value="0" data-pecavalue="bracos" id="braco">
+                                <button type="button" class="config__modifica" data-controle="-" data-peca="bracos">-</button>
+                            </div>
+                        </div>
+                        <div class="modif__config">
+                            <label for="" class="peca__titulo">Blindagem:</label>
+                            <div class="config__peca">
+                                <button type="button" class="config__modifica" data-controle="+" data-peca="blindagem">+</button>
+                                <input type="text" class="config__contador" data-pecavalue="blindagem" value="0">
+                                <button type="button" class="config__modifica" data-controle="-" data-peca="blindagem">-</button>
+                            </div>
+                        </div>
+                        <div class="modif__config">
+                            <label for="" class="peca__titulo">Núcleos:</label>
+                            <div class="config__peca">
+                                <button type="button" class="config__modifica" data-controle="+" data-peca="nucleos">+</button>
+                                <input type="text" class="config__contador" data-pecavalue="nucleos" value="0">
+                                <button type="button" class="config__modifica" data-controle="-" data-peca="nucleos">-</button>
+                            </div>
+                        </div>
+                        <div class="modif__config">
+                            <label for="" class="peca__titulo">Pernas:</label>
+                            <div class="config__peca">
+                                <button type="button" class="config__modifica" data-controle="+" data-peca="pernas">+</button>
+                                <input type="text" class="config__contador" data-pecavalue="pernas" value="0">
+                                <button type="button" class="config__modifica" data-controle="-" data-peca="pernas">-</button>
+                            </div>
+                        </div>
+                        <div class="modif__config">
+                            <label for="" class="peca__titulo">Foguetes:</label>
+                            <div class="config__peca">
+                                <button type="button" class="config__modifica" data-controle="+" data-peca="foguetes">+</button>
+                                <input type="text" class="config__contador" data-pecavalue="foguetes" value="0">
+                                <button type="button" class="config__modifica" data-controle="-" data-peca="foguetes">-</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section class="main__conteudo__bloco dados">
+                <header class="bloco__cabecalho">
+                    <h2 class="bloco__cabecalho__titulo">./internet_explorer/Sql-localhost:DADOS</h2>
+                    <img class="bloco__cabecalho__x" src="./assets/close.png">
+                </header>
+                <div class="bloco__cabecalho__conteudo__dados">
+                    <header class="dados__cabecalho">
+                        <img class="dados__cabecalho_img" src="./assets/setas.png"><img class="dados__cabecalho_img" src="./assets/home.png"> 
+                        <input type="text" class="dados__cabecalho__link" value="http://localhost:8080/index.html?po=***&vel=***&en=***&fo=***">
+                        <img class="dados__cabecalho_img" src="./assets/ambur.png">
+                    </header>
+                    <div class="dados__conteudo">
+                        <h4 class="check">AUTORIZED SERVICE</h4>
+                        <br>
+                        <br>
+                        <h3 class="titulo__site">Database: NOPUX PONTENCIAL</h3>
+                        <br>
+                        <p>@ALTOR: Deivid de Souza Silva</p>
+                        <p>@DATA: 18/02/2004</p>
+                        <p>@VERSAO: 0.0.1</p>
+                        <P>@DESCRICAO: Para ver o robo deixe todos os valores abaixo <strong class="vermelho">MAIORES QUE 100</strong> para alterar os valores use o <strong class="vermelho">C: programa</strong> ao lado</P>
+                        <br>
+                        <table class="tabela__site">
+                            <tr>
+                                <th>forca</th>
+                                <th>poder</th>
+                                <th>energia</th>
+                                <th>velocidade</th>
+                                <th>id</th>
+                            </tr>
+                            <tr>
+                                <td data-estatistica="forca">0</td>
+                                <td data-estatistica="poder">0</td>
+                                <td data-estatistica="energia">0</td>
+                                <td data-estatistica="velocidade">0</td>
+                                <td>1</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>  
+        </div>
+        <section class="main__conteudo__bloco visualizador">
+            <header class="bloco__cabecalho">
+                <h2 class="bloco__cabecalho__titulo">RoboNopux.png - Paint</h2>
+                <img class="bloco__cabecalho__x" src="./assets/close.png">
+            </header>
+            <div class="visual">
+                <header class="visual__cabecalho">
+                    <a class="modif__cabecalho__opt" href=""><strong class="linha">F</strong>ile | <strong class="linha">E</strong>dit | <strong class="linha">V</strong>iew | <strong class="linha">I</strong>magem | <strong class="linha">O</strong>ptions | <strong class="linha">H</strong>elp</a>
+                </header>
+                <div class="visual__conteudo">
+                    <img class="visual__conteudo__kit" src="./assets/kitpaint.png">
+                    <div class="visual__conteudo__main">
+                        <img class="main__gifrobo" src="./assets/tero.png">
+                    </div>
+                </div>
+                <img class="visual__palheta" src="./assets/palhetacor.png"> <img src="./assets/palhetaespa.png">
+            </div>
+        </section>
+    </main>
+    <footer class="cabecalho">
+        <p class="rodape__texto">Feito Por: Deivid de Souza Silva<strong class="rodape__fei">;</strong> github: <a class="rodape__link" href="https://github.com/DeividXupon">//github.com/DeividXupon</a><strong class="rodape__fei">;</strong></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
